@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Sean Knowles <s@seanknowles.dev>",
+  "tasks": {
+    "dev:flagmoji": "cd packages/flagmoji && deno task dev"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  },
+  "workspace": [
+    "packages/*"
+  ],
+  "fmt": {
+    "indentWidth": 2,
+    "lineWidth": 80,
+    "semiColons": true,
+    "singleQuote": false
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  }
+}
