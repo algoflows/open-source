@@ -1,10 +1,10 @@
-import type { Country, EmojiFlagsType } from "./types/types.ts";
+import type { Country, FlagmojiType } from "./types/types.ts";
 import data from "./data/data.json" with { type: "json" };
 
 /**
  * A class for working with country flag emojis.
  */
-export class EmojiFlags implements EmojiFlagsType {
+export class Flagmoji implements FlagmojiType {
   /**
    * The entire dataset of countries.
    */
@@ -71,6 +71,6 @@ export class EmojiFlags implements EmojiFlagsType {
 }
 
 /**
- * A singleton instance of the EmojiFlags class.
+ * A singleton instance of the Flagmoji class.
  */
-export const emojiFlags: EmojiFlags = new EmojiFlags();
+export const flagmoji: Flagmoji = new Flagmoji();

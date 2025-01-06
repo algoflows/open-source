@@ -1,7 +1,7 @@
-import { Country } from "../main.ts";
-import { code3Mapping } from "./code3_mapping.ts";
+import { Country } from '../types/types.ts';
+import { code3Mapping } from './code3_mapping.ts';
 
-const dataPath = new URL("../data/data.json", import.meta.url).pathname;
+const dataPath = new URL('../data/data.json', import.meta.url).pathname;
 
 // Read the existing data.json
 const dataText = await Deno.readTextFile(dataPath);
@@ -27,7 +27,7 @@ data.forEach((country) => {
 // Write the updated data back to data.json
 if (updated) {
   await Deno.writeTextFile(dataPath, JSON.stringify(data, null, 2));
-  console.log("Updated data.json with missing code3 fields.");
+  console.log('Updated data.json with missing code3 fields.');
 } else {
-  console.log("No updates needed. All countries already have code3 fields.");
+  console.log('No updates needed. All countries already have code3 fields.');
 }

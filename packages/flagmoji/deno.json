@@ -10,7 +10,7 @@
     "@std/assert": "jsr:@std/assert@1"
   },
   "name": "@algoflows/flagmoji",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A comprehensive library for working with country flag emojis, supporting ISO 3166-1 codes and country information",
   "runtime": {
     "deno": true,

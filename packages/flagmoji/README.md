@@ -5,8 +5,8 @@ emojis, country codes, and country information using ISO 3166-1 alpha-2 and
 alpha-3 codes.
 
 [![JSR Score](https://jsr.io/badges/@algoflows/flagmoji/score)](https://jsr.io/@algoflows/flagmoji)
-[![JSR Version](https://jsr.io/badges/@algoflows/flagmoji/version)](https://jsr.io/@algoflows/flagmoji)
-[![JSR Downloads](https://jsr.io/badges/@algoflows/flagmoji/downloads)](https://jsr.io/@algoflows/flagmoji)
+[![JSR Score](https://jsr.io/badges/@algoflows/flagmoji)](https://jsr.io/@algoflows/flagmoji)
+[![JSR Scope](https://jsr.io/badges/@algoflows)](https://jsr.io/@algoflows)
 
 ## Features
 
@@ -28,10 +28,10 @@ deno add @algoflows/flagmoji
 ## Usage
 
 ```typescript
-import { emojiFlags } from "@algoflows/flagmoji";
+import { flagmoji } from "@algoflows/flagmoji";
 
 // Get a country using ISO 3166-1 alpha-2 code (2 letters)
-const denmark = emojiFlags.countryCode("DK");
+const denmark = flagmoji.countryCode("DK");
 console.log(denmark);
 // => {
 //   code: "DK",
@@ -44,16 +44,16 @@ console.log(denmark);
 // }
 
 // Get a country using ISO 3166-1 alpha-3 code (3 letters)
-const usa = emojiFlags.countryCode("USA");
+const usa = flagmoji.countryCode("USA");
 console.log(usa?.emoji);
 // => "🇺🇸"
 
 // Search countries by name (case-insensitive)
-const islands = emojiFlags.searchByName("island");
+const islands = flagmoji.searchByName("island");
 // Returns array of countries containing "island" in their name
 
 // Get all flag emojis
-console.log(emojiFlags.emojis);
+console.log(flagmoji.emojis);
 // => ["🇦🇨", "🇦🇩", "🇦🇪", ...]
 ```
 
@@ -75,13 +75,13 @@ interface Country {
 
 ### Methods
 
-#### `emojiFlags.countryCode(code: string): Country | undefined`
+#### `flagmoji.countryCode(code: string): Country | undefined`
 
 - Looks up a country by its ISO 3166-1 alpha-2 or alpha-3 code
 - Case-insensitive
 - Returns undefined if not found
 
-#### `emojiFlags.searchByName(name: string): Country[]`
+#### `flagmoji.searchByName(name: string): Country[]`
 
 - Searches countries by name
 - Case-insensitive, partial match
@@ -89,23 +89,23 @@ interface Country {
 
 ### Properties
 
-#### `emojiFlags.data: Country[]`
+#### `flagmoji.data: Country[]`
 
 - Access to the complete dataset of all countries
 
-#### `emojiFlags.emojis: string[]`
+#### `flagmoji.emojis: string[]`
 
 - Array of all flag emojis
 
-#### `emojiFlags.codes: string[]`
+#### `flagmoji.codes: string[]`
 
 - Array of all ISO 3166-1 alpha-2 codes
 
-#### `emojiFlags.names: string[]`
+#### `flagmoji.names: string[]`
 
 - Array of all country names
 
-#### `emojiFlags.unicodes: string[]`
+#### `flagmoji.unicodes: string[]`
 
 - Array of all unicode representations
 

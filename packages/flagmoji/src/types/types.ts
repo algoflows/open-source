@@ -14,7 +14,7 @@ export interface Country {
 /**
  * Interface for the EmojiFlags class methods and properties.
  */
-export interface EmojiFlagsType {
+export interface FlagmojiType {
   /**
    * The entire dataset of countries.
    */
