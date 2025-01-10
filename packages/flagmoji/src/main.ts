@@ -1,6 +1,6 @@
 import type { Country, FlagmojiType } from './types/types.ts';
 // needed to use `assert` instread of with for node compatibility issues
-import data from './data/data.json' assert { type: 'json' };
+import { countries } from './data/data.ts';
 
 /**
  * A class for working with country flag emojis.
@@ -9,7 +9,7 @@ export class Flagmoji implements FlagmojiType {
   /**
    * The entire dataset of countries.
    */
-  readonly data: Country[] = data as Country[];
+  readonly data: Country[] = countries as Country[];
 
   /**
    * Get the country object for a given country code.
