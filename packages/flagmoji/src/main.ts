@@ -1,5 +1,6 @@
-import type { Country, FlagmojiType } from "./types/types.ts";
-import data from "./data/data.json" with { type: "json" };
+import type { Country, FlagmojiType } from './types/types.ts';
+// needed to use `assert` instread of with for node compatibility issues
+import data from './data/data.json' assert { type: 'json' };
 
 /**
  * A class for working with country flag emojis.
@@ -17,12 +18,12 @@ export class Flagmoji implements FlagmojiType {
    */
   countryCode(code: string): Country | undefined {
     if (!code) {
-      throw new Error("Expected a country code as the first argument");
+      throw new Error('Expected a country code as the first argument');
     }
 
     const upperCode = code.toUpperCase();
-    return this.data.find((country) =>
-      country.code === upperCode || country.code3 === upperCode
+    return this.data.find(
+      (country) => country.code === upperCode || country.code3 === upperCode
     );
   }
 
@@ -33,7 +34,7 @@ export class Flagmoji implements FlagmojiType {
    */
   searchByName(name: string): Country[] {
     if (!name) {
-      throw new Error("Expected a country name as the first argument");
+      throw new Error('Expected a country name as the first argument');
     }
     const searchTerm = name.toLowerCase();
     return this.data.filter((country) =>

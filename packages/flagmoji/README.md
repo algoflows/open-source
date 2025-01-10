@@ -1,8 +1,8 @@
 # @algoflows/flagmoji
 
-A comprehensive library for working with country flag emojis in Deno. Get flag
-emojis, country codes, and country information using ISO 3166-1 alpha-2 and
-alpha-3 codes.
+A comprehensive library for working with country flag emojis in Deno and Node.js
+projects. Get flag emojis, country codes, and country information using ISO
+3166-1 alpha-2 and alpha-3 codes.
 
 [![JSR Score](https://jsr.io/badges/@algoflows/flagmoji/score)](https://jsr.io/@algoflows/flagmoji)
 [![JSR Score](https://jsr.io/badges/@algoflows/flagmoji)](https://jsr.io/@algoflows/flagmoji)
