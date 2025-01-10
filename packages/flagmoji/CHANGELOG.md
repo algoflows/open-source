@@ -11,7 +11,7 @@ and this project adheres to
 ### Fixed
 
 - Node.js compatibility issue with JSON imports
-- Updated import assertion syntax for better cross-runtime support
+- Removed unused `data.json` file
 
 ### Changed
 
