@@ -6,6 +6,31 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.4] - 2024-03-20
+
+### Fixed
+
+- Node.js compatibility issue with JSON imports
+- Updated import assertion syntax for better cross-runtime support
+
+### Changed
+
+- Enhanced README.md with clearer installation instructions
+- Improved API documentation and examples
+- Added badges for package status and metrics
+
+## [0.1.3] - 2024-03-20
+
+### Added
+
+- JSR badges in README.md
+- Additional usage examples
+
+### Changed
+
+- Improved documentation formatting
+- Updated package description
+
 ## [0.1.2] - 2024-03-19
 
 ### Added
