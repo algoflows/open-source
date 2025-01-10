@@ -36,7 +36,7 @@
   },
   "publish": {
     "include": [
-      "src/data/data.json",
+      "src/data/data.ts",
       "src/types/",
       "src/main.ts",
       "mod.ts",
