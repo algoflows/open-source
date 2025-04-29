@@ -25,8 +25,8 @@ monorepo/
 A comprehensive library for working with country flag emojis in Deno. Provides
 utilities for:
 
-- Converting between country codes and flag emojis
-- Searching countries by name
+- Getting country by slug (lowercase, hyphen-separated)
+- Searching countries by slug
 - Supporting ISO 3166-1 alpha-2 and alpha-3 codes
 - Including country dial codes
 

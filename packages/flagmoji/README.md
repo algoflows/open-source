@@ -13,6 +13,8 @@ projects. Get flag emojis, country codes, and country information using ISO
 - 🌍 Support for all country flags (251 countries/territories)
 - 🔄 Convert between country codes and flag emojis
 - 🔍 Search countries by name
+- 🔖 Get a country by slug (lowercase, hyphen-separated)
+- 🔍 Search countries by slug
 - 🏷️ Support for both ISO 3166-1 alpha-2 and alpha-3 codes
 - 📱 Includes country dial codes
 - 💪 Full TypeScript support with type definitions
@@ -52,6 +54,14 @@ console.log(usa?.emoji);
 const islands = flagmoji.searchByName("island");
 // Returns array of countries containing "island" in their name
 
+// Get a country by slug
+const usaBySlug = flagmoji.slug("united-states");
+console.log(usaBySlug?.name); // "United States"
+
+// Search countries by slug
+const ukList = flagmoji.searchBySlug("united-kingdom");
+console.log(ukList[0]?.emoji); // "🇬🇧"
+
 // Get all flag emojis
 console.log(flagmoji.emojis);
 // => ["🇦🇨", "🇦🇩", "🇦🇪", ...]
@@ -86,6 +96,20 @@ interface Country {
 - Searches countries by name
 - Case-insensitive, partial match
 - Returns array of matching countries
+
+#### `flagmoji.slug(slug: string): Country | undefined`
+
+- Looks up a country by its slug (lowercase, hyphen-separated)
+- Case-insensitive
+- Returns undefined if not found
+- Throws error if slug is empty
+
+#### `flagmoji.searchBySlug(slug: string): Country[]`
+
+- Searches countries by slug
+- Case-insensitive exact match
+- Returns an array of matching country objects (empty if none)
+- Throws error if slug is empty
 
 ### Properties
 
