@@ -9,6 +9,7 @@ export interface Country {
   name: string;
   title: string;
   dialCode?: string | null;
+  slug?: string;
 }
 
 /**

@@ -91,3 +91,51 @@ Deno.test('EmojiFlags - searchByName', () => {
     'Expected a country name as the first argument'
   );
 });
+
+Deno.test('EmojiFlags - slug', () => {
+  // exact slug
+  const us = flagmoji.slug('united-states');
+  assertEquals(us?.code, 'US');
+  assertEquals(us?.name, 'United States');
+
+  // case insensitivity
+  const us2 = flagmoji.slug('United-States');
+  assertEquals(us2, us);
+
+  // non-existent slug returns undefined
+  const none = flagmoji.slug('no-such-slug');
+  assertEquals(none, undefined);
+
+  // empty slug throws error
+  assertThrows(
+    () => {
+      flagmoji.slug('');
+    },
+    Error,
+    'Expected a country slug as the first argument'
+  );
+});
+
+Deno.test('EmojiFlags - searchBySlug', () => {
+  // exact slug
+  const uk = flagmoji.searchBySlug('united-kingdom');
+  assertEquals(uk.length, 1);
+  assertEquals(uk[0]?.code, 'GB');
+
+  // case insensitivity
+  const uk2 = flagmoji.searchBySlug('United-Kingdom');
+  assertEquals(uk2, uk);
+
+  // non-existent slug returns empty array
+  const none = flagmoji.searchBySlug('no-such-slug');
+  assertEquals(none.length, 0);
+
+  // empty slug throws error
+  assertThrows(
+    () => {
+      flagmoji.searchBySlug('');
+    },
+    Error,
+    'Expected a country slug as the first argument'
+  );
+});

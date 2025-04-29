@@ -7,6 +7,7 @@ export const countries = [
     name: 'Andorra',
     title: 'flag for Andorra',
     dialCode: '+376',
+    slug: 'andorra',
   },
   {
     code: 'AE',
@@ -16,6 +17,7 @@ export const countries = [
     name: 'United Arab Emirates',
     title: 'flag for United Arab Emirates',
     dialCode: '+971',
+    slug: 'united-arab-emirates',
   },
   {
     code: 'AF',
@@ -25,6 +27,7 @@ export const countries = [
     name: 'Afghanistan',
     title: 'flag for Afghanistan',
     dialCode: '+93',
+    slug: 'afghanistan',
   },
   {
     code: 'AG',
@@ -34,6 +37,7 @@ export const countries = [
     name: 'Antigua and Barbuda',
     title: 'flag for Antigua and Barbuda',
     dialCode: '+1268',
+    slug: 'antigua-and-barbuda',
   },
   {
     code: 'AI',
@@ -43,6 +47,7 @@ export const countries = [
     name: 'Anguilla',
     title: 'flag for Anguilla',
     dialCode: '+1 264',
+    slug: 'anguilla',
   },
   {
     code: 'AL',
@@ -52,6 +57,7 @@ export const countries = [
     name: 'Albania',
     title: 'flag for Albania',
     dialCode: '+355',
+    slug: 'albania',
   },
   {
     code: 'AM',
@@ -61,6 +67,7 @@ export const countries = [
     name: 'Armenia',
     title: 'flag for Armenia',
     dialCode: '+374',
+    slug: 'armenia',
   },
   {
     code: 'AO',
@@ -70,6 +77,7 @@ export const countries = [
     name: 'Angola',
     title: 'flag for Angola',
     dialCode: '+244',
+    slug: 'angola',
   },
   {
     code: 'AQ',
@@ -79,6 +87,7 @@ export const countries = [
     name: 'Antarctica',
     title: 'flag for Antarctica',
     dialCode: null,
+    slug: 'antarctica',
   },
   {
     code: 'AR',
@@ -88,6 +97,7 @@ export const countries = [
     name: 'Argentina',
     title: 'flag for Argentina',
     dialCode: '+54',
+    slug: 'argentina',
   },
   {
     code: 'AS',
@@ -97,6 +107,7 @@ export const countries = [
     name: 'American Samoa',
     title: 'flag for American Samoa',
     dialCode: '+1 684',
+    slug: 'american-samoa',
   },
   {
     code: 'AT',
@@ -106,6 +117,7 @@ export const countries = [
     name: 'Austria',
     title: 'flag for Austria',
     dialCode: '+43',
+    slug: 'austria',
   },
   {
     code: 'AU',
@@ -115,6 +127,7 @@ export const countries = [
     name: 'Australia',
     title: 'flag for Australia',
     dialCode: '+61',
+    slug: 'australia',
   },
   {
     code: 'AW',
@@ -124,6 +137,7 @@ export const countries = [
     name: 'Aruba',
     title: 'flag for Aruba',
     dialCode: '+297',
+    slug: 'aruba',
   },
   {
     code: 'AX',
@@ -133,6 +147,7 @@ export const countries = [
     title: 'flag for Åland Islands',
     dialCode: '',
     code3: 'ALA',
+    slug: 'land-islands',
   },
   {
     code: 'AZ',
@@ -142,6 +157,7 @@ export const countries = [
     title: 'flag for Azerbaijan',
     dialCode: '+994',
     code3: 'AZE',
+    slug: 'azerbaijan',
   },
   {
     code: 'BA',
@@ -151,6 +167,7 @@ export const countries = [
     title: 'flag for Bosnia and Herzegovina',
     dialCode: '+387',
     code3: 'BIH',
+    slug: 'bosnia-and-herzegovina',
   },
   {
     code: 'BB',
@@ -160,6 +177,7 @@ export const countries = [
     title: 'flag for Barbados',
     dialCode: '+1 246',
     code3: 'BRB',
+    slug: 'barbados',
   },
   {
     code: 'BD',
@@ -169,6 +187,7 @@ export const countries = [
     title: 'flag for Bangladesh',
     dialCode: '+880',
     code3: 'BGD',
+    slug: 'bangladesh',
   },
   {
     code: 'BE',
@@ -178,6 +197,7 @@ export const countries = [
     title: 'flag for Belgium',
     dialCode: '+32',
     code3: 'BEL',
+    slug: 'belgium',
   },
   {
     code: 'BF',
@@ -187,6 +207,7 @@ export const countries = [
     title: 'flag for Burkina Faso',
     dialCode: '+226',
     code3: 'BFA',
+    slug: 'burkina-faso',
   },
   {
     code: 'BG',
@@ -196,6 +217,7 @@ export const countries = [
     title: 'flag for Bulgaria',
     dialCode: '+359',
     code3: 'BGR',
+    slug: 'bulgaria',
   },
   {
     code: 'BH',
@@ -205,6 +227,7 @@ export const countries = [
     title: 'flag for Bahrain',
     dialCode: '+973',
     code3: 'BHR',
+    slug: 'bahrain',
   },
   {
     code: 'BI',
@@ -214,6 +237,7 @@ export const countries = [
     title: 'flag for Burundi',
     dialCode: '+257',
     code3: 'BDI',
+    slug: 'burundi',
   },
   {
     code: 'BJ',
@@ -223,6 +247,7 @@ export const countries = [
     title: 'flag for Benin',
     dialCode: '+229',
     code3: 'BEN',
+    slug: 'benin',
   },
   {
     code: 'BL',
@@ -232,6 +257,7 @@ export const countries = [
     title: 'flag for Saint Barthélemy',
     dialCode: '+590',
     code3: 'BLM',
+    slug: 'saint-barthlemy',
   },
   {
     code: 'BM',
@@ -241,6 +267,7 @@ export const countries = [
     title: 'flag for Bermuda',
     dialCode: '+1 441',
     code3: 'BMU',
+    slug: 'bermuda',
   },
   {
     code: 'BN',
@@ -250,6 +277,7 @@ export const countries = [
     title: 'flag for Brunei Darussalam',
     dialCode: '+673',
     code3: 'BRN',
+    slug: 'brunei-darussalam',
   },
   {
     code: 'BO',
@@ -259,6 +287,7 @@ export const countries = [
     title: 'flag for Bolivia',
     dialCode: '+591',
     code3: 'BOL',
+    slug: 'bolivia',
   },
   {
     code: 'BQ',
@@ -267,6 +296,7 @@ export const countries = [
     name: 'Bonaire, Sint Eustatius and Saba',
     title: 'flag for Bonaire, Sint Eustatius and Saba',
     code3: 'BES',
+    slug: 'bonaire-sint-eustatius-and-saba',
   },
   {
     code: 'BR',
@@ -276,6 +306,7 @@ export const countries = [
     title: 'flag for Brazil',
     dialCode: '+55',
     code3: 'BRA',
+    slug: 'brazil',
   },
   {
     code: 'BS',
@@ -285,6 +316,7 @@ export const countries = [
     title: 'flag for Bahamas',
     dialCode: '+1 242',
     code3: 'BHS',
+    slug: 'bahamas',
   },
   {
     code: 'BT',
@@ -294,6 +326,7 @@ export const countries = [
     title: 'flag for Bhutan',
     dialCode: '+975',
     code3: 'BTN',
+    slug: 'bhutan',
   },
   {
     code: 'BV',
@@ -302,6 +335,7 @@ export const countries = [
     name: 'Bouvet Island',
     title: 'flag for Bouvet Island',
     code3: 'BVT',
+    slug: 'bouvet-island',
   },
   {
     code: 'BW',
@@ -311,6 +345,7 @@ export const countries = [
     title: 'flag for Botswana',
     dialCode: '+267',
     code3: 'BWA',
+    slug: 'botswana',
   },
   {
     code: 'BY',
@@ -320,6 +355,7 @@ export const countries = [
     title: 'flag for Belarus',
     dialCode: '+375',
     code3: 'BLR',
+    slug: 'belarus',
   },
   {
     code: 'BZ',
@@ -329,6 +365,7 @@ export const countries = [
     title: 'flag for Belize',
     dialCode: '+501',
     code3: 'BLZ',
+    slug: 'belize',
   },
   {
     code: 'CA',
@@ -338,6 +375,7 @@ export const countries = [
     title: 'flag for Canada',
     dialCode: '+1',
     code3: 'CAN',
+    slug: 'canada',
   },
   {
     code: 'CC',
@@ -347,6 +385,7 @@ export const countries = [
     title: 'flag for Cocos (Keeling) Islands',
     dialCode: '+61',
     code3: 'CCK',
+    slug: 'cocos-keeling-islands',
   },
   {
     code: 'CD',
@@ -356,6 +395,7 @@ export const countries = [
     title: 'flag for Congo',
     dialCode: '+243',
     code3: 'COD',
+    slug: 'congo',
   },
   {
     code: 'CF',
@@ -365,6 +405,7 @@ export const countries = [
     title: 'flag for Central African Republic',
     dialCode: '+236',
     code3: 'CAF',
+    slug: 'central-african-republic',
   },
   {
     code: 'CG',
@@ -374,6 +415,7 @@ export const countries = [
     title: 'flag for Congo',
     dialCode: '+242',
     code3: 'COG',
+    slug: 'congo',
   },
   {
     code: 'CH',
@@ -383,6 +425,7 @@ export const countries = [
     title: 'flag for Switzerland',
     dialCode: '+41',
     code3: 'CHE',
+    slug: 'switzerland',
   },
   {
     code: 'CI',
@@ -392,6 +435,7 @@ export const countries = [
     title: "flag for Côte D'Ivoire",
     dialCode: '+225',
     code3: 'CIV',
+    slug: 'cte-divoire',
   },
   {
     code: 'CK',
@@ -401,6 +445,7 @@ export const countries = [
     title: 'flag for Cook Islands',
     dialCode: '+682',
     code3: 'COK',
+    slug: 'cook-islands',
   },
   {
     code: 'CL',
@@ -410,6 +455,7 @@ export const countries = [
     title: 'flag for Chile',
     dialCode: '+56',
     code3: 'CHL',
+    slug: 'chile',
   },
   {
     code: 'CM',
@@ -419,6 +465,7 @@ export const countries = [
     title: 'flag for Cameroon',
     dialCode: '+237',
     code3: 'CMR',
+    slug: 'cameroon',
   },
   {
     code: 'CN',
@@ -428,6 +475,7 @@ export const countries = [
     title: 'flag for China',
     dialCode: '+86',
     code3: 'CHN',
+    slug: 'china',
   },
   {
     code: 'CO',
@@ -437,6 +485,7 @@ export const countries = [
     title: 'flag for Colombia',
     dialCode: '+57',
     code3: 'COL',
+    slug: 'colombia',
   },
   {
     code: 'CR',
@@ -446,6 +495,7 @@ export const countries = [
     title: 'flag for Costa Rica',
     dialCode: '+506',
     code3: 'CRI',
+    slug: 'costa-rica',
   },
   {
     code: 'CU',
@@ -455,6 +505,7 @@ export const countries = [
     title: 'flag for Cuba',
     dialCode: '+53',
     code3: 'CUB',
+    slug: 'cuba',
   },
   {
     code: 'CV',
@@ -464,6 +515,7 @@ export const countries = [
     title: 'flag for Cape Verde',
     dialCode: '+238',
     code3: 'CPV',
+    slug: 'cape-verde',
   },
   {
     code: 'CW',
@@ -472,6 +524,7 @@ export const countries = [
     name: 'Curaçao',
     title: 'flag for Curaçao',
     code3: 'CUW',
+    slug: 'curaao',
   },
   {
     code: 'CX',
@@ -481,6 +534,7 @@ export const countries = [
     title: 'flag for Christmas Island',
     dialCode: '+61',
     code3: 'CXR',
+    slug: 'christmas-island',
   },
   {
     code: 'CY',
@@ -490,6 +544,7 @@ export const countries = [
     title: 'flag for Cyprus',
     dialCode: '+537',
     code3: 'CYP',
+    slug: 'cyprus',
   },
   {
     code: 'CZ',
@@ -499,6 +554,7 @@ export const countries = [
     title: 'flag for Czech Republic',
     dialCode: '+420',
     code3: 'CZE',
+    slug: 'czech-republic',
   },
   {
     code: 'DE',
@@ -508,6 +564,7 @@ export const countries = [
     title: 'flag for Germany',
     dialCode: '+49',
     code3: 'DEU',
+    slug: 'germany',
   },
   {
     code: 'DJ',
@@ -517,6 +574,7 @@ export const countries = [
     title: 'flag for Djibouti',
     dialCode: '+253',
     code3: 'DJI',
+    slug: 'djibouti',
   },
   {
     code: 'DK',
@@ -526,6 +584,7 @@ export const countries = [
     title: 'flag for Denmark',
     dialCode: '+45',
     code3: 'DNK',
+    slug: 'denmark',
   },
   {
     code: 'DM',
@@ -535,6 +594,7 @@ export const countries = [
     title: 'flag for Dominica',
     dialCode: '+1 767',
     code3: 'DMA',
+    slug: 'dominica',
   },
   {
     code: 'DO',
@@ -544,6 +604,7 @@ export const countries = [
     title: 'flag for Dominican Republic',
     dialCode: '+1 849',
     code3: 'DOM',
+    slug: 'dominican-republic',
   },
   {
     code: 'DZ',
@@ -553,6 +614,7 @@ export const countries = [
     title: 'flag for Algeria',
     dialCode: '+213',
     code3: 'DZA',
+    slug: 'algeria',
   },
   {
     code: 'EC',
@@ -562,6 +624,7 @@ export const countries = [
     title: 'flag for Ecuador',
     dialCode: '+593',
     code3: 'ECU',
+    slug: 'ecuador',
   },
   {
     code: 'EE',
@@ -571,6 +634,7 @@ export const countries = [
     title: 'flag for Estonia',
     dialCode: '+372',
     code3: 'EST',
+    slug: 'estonia',
   },
   {
     code: 'EG',
@@ -580,6 +644,7 @@ export const countries = [
     title: 'flag for Egypt',
     dialCode: '+20',
     code3: 'EGY',
+    slug: 'egypt',
   },
   {
     code: 'EH',
@@ -588,6 +653,7 @@ export const countries = [
     name: 'Western Sahara',
     title: 'flag for Western Sahara',
     code3: 'ESH',
+    slug: 'western-sahara',
   },
   {
     code: 'ER',
@@ -597,6 +663,7 @@ export const countries = [
     title: 'flag for Eritrea',
     dialCode: '+291',
     code3: 'ERI',
+    slug: 'eritrea',
   },
   {
     code: 'ES',
@@ -606,6 +673,7 @@ export const countries = [
     title: 'flag for Spain',
     dialCode: '+34',
     code3: 'ESP',
+    slug: 'spain',
   },
   {
     code: 'ET',
@@ -615,6 +683,7 @@ export const countries = [
     title: 'flag for Ethiopia',
     dialCode: '+251',
     code3: 'ETH',
+    slug: 'ethiopia',
   },
   {
     code: 'EU',
@@ -622,6 +691,7 @@ export const countries = [
     unicode: 'U+1F1EA U+1F1FA',
     name: 'European Union',
     title: 'flag for European Union',
+    slug: 'european-union',
   },
   {
     code: 'FI',
@@ -631,6 +701,7 @@ export const countries = [
     title: 'flag for Finland',
     dialCode: '+358',
     code3: 'FIN',
+    slug: 'finland',
   },
   {
     code: 'FJ',
@@ -640,6 +711,7 @@ export const countries = [
     title: 'flag for Fiji',
     dialCode: '+679',
     code3: 'FJI',
+    slug: 'fiji',
   },
   {
     code: 'FK',
@@ -649,6 +721,7 @@ export const countries = [
     title: 'flag for Falkland Islands (Malvinas)',
     dialCode: '+500',
     code3: 'FLK',
+    slug: 'falkland-islands-malvinas',
   },
   {
     code: 'FM',
@@ -658,6 +731,7 @@ export const countries = [
     title: 'flag for Micronesia',
     dialCode: '+691',
     code3: 'FSM',
+    slug: 'micronesia',
   },
   {
     code: 'FO',
@@ -667,6 +741,7 @@ export const countries = [
     title: 'flag for Faroe Islands',
     dialCode: '+298',
     code3: 'FRO',
+    slug: 'faroe-islands',
   },
   {
     code: 'FR',
@@ -676,6 +751,7 @@ export const countries = [
     title: 'flag for France',
     dialCode: '+33',
     code3: 'FRA',
+    slug: 'france',
   },
   {
     code: 'GA',
@@ -685,6 +761,7 @@ export const countries = [
     title: 'flag for Gabon',
     dialCode: '+241',
     code3: 'GAB',
+    slug: 'gabon',
   },
   {
     code: 'GB',
@@ -694,6 +771,7 @@ export const countries = [
     title: 'flag for United Kingdom',
     dialCode: '+44',
     code3: 'GBR',
+    slug: 'united-kingdom',
   },
   {
     code: 'GD',
@@ -703,6 +781,7 @@ export const countries = [
     title: 'flag for Grenada',
     dialCode: '+1 473',
     code3: 'GRD',
+    slug: 'grenada',
   },
   {
     code: 'GE',
@@ -712,6 +791,7 @@ export const countries = [
     title: 'flag for Georgia',
     dialCode: '+995',
     code3: 'GEO',
+    slug: 'georgia',
   },
   {
     code: 'GF',
@@ -721,6 +801,7 @@ export const countries = [
     title: 'flag for French Guiana',
     dialCode: '+594',
     code3: 'GUF',
+    slug: 'french-guiana',
   },
   {
     code: 'GG',
@@ -730,6 +811,7 @@ export const countries = [
     title: 'flag for Guernsey',
     dialCode: '+44',
     code3: 'GGY',
+    slug: 'guernsey',
   },
   {
     code: 'GH',
@@ -739,6 +821,7 @@ export const countries = [
     title: 'flag for Ghana',
     dialCode: '+233',
     code3: 'GHA',
+    slug: 'ghana',
   },
   {
     code: 'GI',
@@ -748,6 +831,7 @@ export const countries = [
     title: 'flag for Gibraltar',
     dialCode: '+350',
     code3: 'GIB',
+    slug: 'gibraltar',
   },
   {
     code: 'GL',
@@ -757,6 +841,7 @@ export const countries = [
     title: 'flag for Greenland',
     dialCode: '+299',
     code3: 'GRL',
+    slug: 'greenland',
   },
   {
     code: 'GM',
@@ -766,6 +851,7 @@ export const countries = [
     title: 'flag for Gambia',
     dialCode: '+220',
     code3: 'GMB',
+    slug: 'gambia',
   },
   {
     code: 'GN',
@@ -775,6 +861,7 @@ export const countries = [
     title: 'flag for Guinea',
     dialCode: '+224',
     code3: 'GIN',
+    slug: 'guinea',
   },
   {
     code: 'GP',
@@ -784,6 +871,7 @@ export const countries = [
     title: 'flag for Guadeloupe',
     dialCode: '+590',
     code3: 'GLP',
+    slug: 'guadeloupe',
   },
   {
     code: 'GQ',
@@ -793,6 +881,7 @@ export const countries = [
     title: 'flag for Equatorial Guinea',
     dialCode: '+240',
     code3: 'GNQ',
+    slug: 'equatorial-guinea',
   },
   {
     code: 'GR',
@@ -802,6 +891,7 @@ export const countries = [
     title: 'flag for Greece',
     dialCode: '+30',
     code3: 'GRC',
+    slug: 'greece',
   },
   {
     code: 'GS',
@@ -811,6 +901,7 @@ export const countries = [
     title: 'flag for South Georgia',
     dialCode: '+500',
     code3: 'SGS',
+    slug: 'south-georgia',
   },
   {
     code: 'GT',
@@ -820,6 +911,7 @@ export const countries = [
     title: 'flag for Guatemala',
     dialCode: '+502',
     code3: 'GTM',
+    slug: 'guatemala',
   },
   {
     code: 'GU',
@@ -829,6 +921,7 @@ export const countries = [
     title: 'flag for Guam',
     dialCode: '+1 671',
     code3: 'GUM',
+    slug: 'guam',
   },
   {
     code: 'GW',
@@ -838,6 +931,7 @@ export const countries = [
     title: 'flag for Guinea-Bissau',
     dialCode: '+245',
     code3: 'GNB',
+    slug: 'guinea-bissau',
   },
   {
     code: 'GY',
@@ -847,6 +941,7 @@ export const countries = [
     title: 'flag for Guyana',
     dialCode: '+595',
     code3: 'GUY',
+    slug: 'guyana',
   },
   {
     code: 'HK',
@@ -856,6 +951,7 @@ export const countries = [
     title: 'flag for Hong Kong',
     dialCode: '+852',
     code3: 'HKG',
+    slug: 'hong-kong',
   },
   {
     code: 'HM',
@@ -864,6 +960,7 @@ export const countries = [
     name: 'Heard Island and Mcdonald Islands',
     title: 'flag for Heard Island and Mcdonald Islands',
     code3: 'HMD',
+    slug: 'heard-island-and-mcdonald-islands',
   },
   {
     code: 'HN',
@@ -873,6 +970,7 @@ export const countries = [
     title: 'flag for Honduras',
     dialCode: '+504',
     code3: 'HND',
+    slug: 'honduras',
   },
   {
     code: 'HR',
@@ -882,6 +980,7 @@ export const countries = [
     title: 'flag for Croatia',
     dialCode: '+385',
     code3: 'HRV',
+    slug: 'croatia',
   },
   {
     code: 'HT',
@@ -891,6 +990,7 @@ export const countries = [
     title: 'flag for Haiti',
     dialCode: '+509',
     code3: 'HTI',
+    slug: 'haiti',
   },
   {
     code: 'HU',
@@ -900,6 +1000,7 @@ export const countries = [
     title: 'flag for Hungary',
     dialCode: '+36',
     code3: 'HUN',
+    slug: 'hungary',
   },
   {
     code: 'ID',
@@ -909,6 +1010,7 @@ export const countries = [
     title: 'flag for Indonesia',
     dialCode: '+62',
     code3: 'IDN',
+    slug: 'indonesia',
   },
   {
     code: 'IE',
@@ -918,6 +1020,7 @@ export const countries = [
     title: 'flag for Ireland',
     dialCode: '+353',
     code3: 'IRL',
+    slug: 'ireland',
   },
   {
     code: 'IL',
@@ -927,6 +1030,7 @@ export const countries = [
     title: 'flag for Israel',
     dialCode: '+972',
     code3: 'ISR',
+    slug: 'israel',
   },
   {
     code: 'IM',
@@ -936,6 +1040,7 @@ export const countries = [
     title: 'flag for Isle of Man',
     dialCode: '+44',
     code3: 'IMN',
+    slug: 'isle-of-man',
   },
   {
     code: 'IN',
@@ -945,6 +1050,7 @@ export const countries = [
     title: 'flag for India',
     dialCode: '+91',
     code3: 'IND',
+    slug: 'india',
   },
   {
     code: 'IO',
@@ -954,6 +1060,7 @@ export const countries = [
     title: 'flag for British Indian Ocean Territory',
     dialCode: '+246',
     code3: 'IOT',
+    slug: 'british-indian-ocean-territory',
   },
   {
     code: 'IQ',
@@ -963,6 +1070,7 @@ export const countries = [
     title: 'flag for Iraq',
     dialCode: '+964',
     code3: 'IRQ',
+    slug: 'iraq',
   },
   {
     code: 'IR',
@@ -972,6 +1080,7 @@ export const countries = [
     title: 'flag for Iran',
     dialCode: '+98',
     code3: 'IRN',
+    slug: 'iran',
   },
   {
     code: 'IS',
@@ -981,6 +1090,7 @@ export const countries = [
     title: 'flag for Iceland',
     dialCode: '+354',
     code3: 'ISL',
+    slug: 'iceland',
   },
   {
     code: 'IT',
@@ -990,6 +1100,7 @@ export const countries = [
     title: 'flag for Italy',
     dialCode: '+39',
     code3: 'ITA',
+    slug: 'italy',
   },
   {
     code: 'JE',
@@ -999,6 +1110,7 @@ export const countries = [
     title: 'flag for Jersey',
     dialCode: '+44',
     code3: 'JEY',
+    slug: 'jersey',
   },
   {
     code: 'JM',
@@ -1008,6 +1120,7 @@ export const countries = [
     title: 'flag for Jamaica',
     dialCode: '+1 876',
     code3: 'JAM',
+    slug: 'jamaica',
   },
   {
     code: 'JO',
@@ -1017,6 +1130,7 @@ export const countries = [
     title: 'flag for Jordan',
     dialCode: '+962',
     code3: 'JOR',
+    slug: 'jordan',
   },
   {
     code: 'JP',
@@ -1026,6 +1140,7 @@ export const countries = [
     title: 'flag for Japan',
     dialCode: '+81',
     code3: 'JPN',
+    slug: 'japan',
   },
   {
     code: 'KE',
@@ -1035,6 +1150,7 @@ export const countries = [
     title: 'flag for Kenya',
     dialCode: '+254',
     code3: 'KEN',
+    slug: 'kenya',
   },
   {
     code: 'KG',
@@ -1044,6 +1160,7 @@ export const countries = [
     title: 'flag for Kyrgyzstan',
     dialCode: '+996',
     code3: 'KGZ',
+    slug: 'kyrgyzstan',
   },
   {
     code: 'KH',
@@ -1053,6 +1170,7 @@ export const countries = [
     title: 'flag for Cambodia',
     dialCode: '+855',
     code3: 'KHM',
+    slug: 'cambodia',
   },
   {
     code: 'KI',
@@ -1062,6 +1180,7 @@ export const countries = [
     title: 'flag for Kiribati',
     dialCode: '+686',
     code3: 'KIR',
+    slug: 'kiribati',
   },
   {
     code: 'KM',
@@ -1071,6 +1190,7 @@ export const countries = [
     title: 'flag for Comoros',
     dialCode: '+269',
     code3: 'COM',
+    slug: 'comoros',
   },
   {
     code: 'KN',
@@ -1080,6 +1200,7 @@ export const countries = [
     title: 'flag for Saint Kitts and Nevis',
     dialCode: '+1 869',
     code3: 'KNA',
+    slug: 'saint-kitts-and-nevis',
   },
   {
     code: 'KP',
@@ -1089,6 +1210,7 @@ export const countries = [
     title: 'flag for North Korea',
     dialCode: '+850',
     code3: 'PRK',
+    slug: 'north-korea',
   },
   {
     code: 'KR',
@@ -1098,6 +1220,7 @@ export const countries = [
     title: 'flag for South Korea',
     dialCode: '+82',
     code3: 'KOR',
+    slug: 'south-korea',
   },
   {
     code: 'KW',
@@ -1107,6 +1230,7 @@ export const countries = [
     title: 'flag for Kuwait',
     dialCode: '+965',
     code3: 'KWT',
+    slug: 'kuwait',
   },
   {
     code: 'KY',
@@ -1116,6 +1240,7 @@ export const countries = [
     title: 'flag for Cayman Islands',
     dialCode: '+ 345',
     code3: 'CYM',
+    slug: 'cayman-islands',
   },
   {
     code: 'KZ',
@@ -1125,6 +1250,7 @@ export const countries = [
     title: 'flag for Kazakhstan',
     dialCode: '+7 7',
     code3: 'KAZ',
+    slug: 'kazakhstan',
   },
   {
     code: 'LA',
@@ -1134,6 +1260,7 @@ export const countries = [
     title: "flag for Lao People's Democratic Republic",
     dialCode: '+856',
     code3: 'LAO',
+    slug: 'lao-peoples-democratic-republic',
   },
   {
     code: 'LB',
@@ -1143,6 +1270,7 @@ export const countries = [
     title: 'flag for Lebanon',
     dialCode: '+961',
     code3: 'LBN',
+    slug: 'lebanon',
   },
   {
     code: 'LC',
@@ -1152,6 +1280,7 @@ export const countries = [
     title: 'flag for Saint Lucia',
     dialCode: '+1 758',
     code3: 'LCA',
+    slug: 'saint-lucia',
   },
   {
     code: 'LI',
@@ -1161,6 +1290,7 @@ export const countries = [
     title: 'flag for Liechtenstein',
     dialCode: '+423',
     code3: 'LIE',
+    slug: 'liechtenstein',
   },
   {
     code: 'LK',
@@ -1170,6 +1300,7 @@ export const countries = [
     title: 'flag for Sri Lanka',
     dialCode: '+94',
     code3: 'LKA',
+    slug: 'sri-lanka',
   },
   {
     code: 'LR',
@@ -1179,6 +1310,7 @@ export const countries = [
     title: 'flag for Liberia',
     dialCode: '+231',
     code3: 'LBR',
+    slug: 'liberia',
   },
   {
     code: 'LS',
@@ -1188,6 +1320,7 @@ export const countries = [
     title: 'flag for Lesotho',
     dialCode: '+266',
     code3: 'LSO',
+    slug: 'lesotho',
   },
   {
     code: 'LT',
@@ -1197,6 +1330,7 @@ export const countries = [
     title: 'flag for Lithuania',
     dialCode: '+370',
     code3: 'LTU',
+    slug: 'lithuania',
   },
   {
     code: 'LU',
@@ -1206,6 +1340,7 @@ export const countries = [
     title: 'flag for Luxembourg',
     dialCode: '+352',
     code3: 'LUX',
+    slug: 'luxembourg',
   },
   {
     code: 'LV',
@@ -1215,6 +1350,7 @@ export const countries = [
     title: 'flag for Latvia',
     dialCode: '+371',
     code3: 'LVA',
+    slug: 'latvia',
   },
   {
     code: 'LY',
@@ -1224,6 +1360,7 @@ export const countries = [
     title: 'flag for Libya',
     dialCode: '+218',
     code3: 'LBY',
+    slug: 'libya',
   },
   {
     code: 'MA',
@@ -1233,6 +1370,7 @@ export const countries = [
     title: 'flag for Morocco',
     dialCode: '+212',
     code3: 'MAR',
+    slug: 'morocco',
   },
   {
     code: 'MC',
@@ -1242,6 +1380,7 @@ export const countries = [
     title: 'flag for Monaco',
     dialCode: '+377',
     code3: 'MCO',
+    slug: 'monaco',
   },
   {
     code: 'MD',
@@ -1251,6 +1390,7 @@ export const countries = [
     title: 'flag for Moldova',
     dialCode: '+373',
     code3: 'MDA',
+    slug: 'moldova',
   },
   {
     code: 'ME',
@@ -1260,6 +1400,7 @@ export const countries = [
     title: 'flag for Montenegro',
     dialCode: '+382',
     code3: 'MNE',
+    slug: 'montenegro',
   },
   {
     code: 'MF',
@@ -1269,6 +1410,7 @@ export const countries = [
     title: 'flag for Saint Martin (French Part)',
     dialCode: '+590',
     code3: 'MAF',
+    slug: 'saint-martin-french-part',
   },
   {
     code: 'MG',
@@ -1278,6 +1420,7 @@ export const countries = [
     title: 'flag for Madagascar',
     dialCode: '+261',
     code3: 'MDG',
+    slug: 'madagascar',
   },
   {
     code: 'MH',
@@ -1287,6 +1430,7 @@ export const countries = [
     title: 'flag for Marshall Islands',
     dialCode: '+692',
     code3: 'MHL',
+    slug: 'marshall-islands',
   },
   {
     code: 'MK',
@@ -1296,6 +1440,7 @@ export const countries = [
     title: 'flag for Macedonia',
     dialCode: '+389',
     code3: 'MKD',
+    slug: 'macedonia',
   },
   {
     code: 'ML',
@@ -1305,6 +1450,7 @@ export const countries = [
     title: 'flag for Mali',
     dialCode: '+223',
     code3: 'MLI',
+    slug: 'mali',
   },
   {
     code: 'MM',
@@ -1314,6 +1460,7 @@ export const countries = [
     title: 'flag for Myanmar',
     dialCode: '+95',
     code3: 'MMR',
+    slug: 'myanmar',
   },
   {
     code: 'MN',
@@ -1323,6 +1470,7 @@ export const countries = [
     title: 'flag for Mongolia',
     dialCode: '+976',
     code3: 'MNG',
+    slug: 'mongolia',
   },
   {
     code: 'MO',
@@ -1332,6 +1480,7 @@ export const countries = [
     title: 'flag for Macao',
     dialCode: '+853',
     code3: 'MAC',
+    slug: 'macao',
   },
   {
     code: 'MP',
@@ -1341,6 +1490,7 @@ export const countries = [
     title: 'flag for Northern Mariana Islands',
     dialCode: '+1 670',
     code3: 'MNP',
+    slug: 'northern-mariana-islands',
   },
   {
     code: 'MQ',
@@ -1350,6 +1500,7 @@ export const countries = [
     title: 'flag for Martinique',
     dialCode: '+596',
     code3: 'MTQ',
+    slug: 'martinique',
   },
   {
     code: 'MR',
@@ -1359,6 +1510,7 @@ export const countries = [
     title: 'flag for Mauritania',
     dialCode: '+222',
     code3: 'MRT',
+    slug: 'mauritania',
   },
   {
     code: 'MS',
@@ -1368,6 +1520,7 @@ export const countries = [
     title: 'flag for Montserrat',
     dialCode: '+1664',
     code3: 'MSR',
+    slug: 'montserrat',
   },
   {
     code: 'MT',
@@ -1377,6 +1530,7 @@ export const countries = [
     title: 'flag for Malta',
     dialCode: '+356',
     code3: 'MLT',
+    slug: 'malta',
   },
   {
     code: 'MU',
@@ -1386,6 +1540,7 @@ export const countries = [
     title: 'flag for Mauritius',
     dialCode: '+230',
     code3: 'MUS',
+    slug: 'mauritius',
   },
   {
     code: 'MV',
@@ -1395,6 +1550,7 @@ export const countries = [
     title: 'flag for Maldives',
     dialCode: '+960',
     code3: 'MDV',
+    slug: 'maldives',
   },
   {
     code: 'MW',
@@ -1404,6 +1560,7 @@ export const countries = [
     title: 'flag for Malawi',
     dialCode: '+265',
     code3: 'MWI',
+    slug: 'malawi',
   },
   {
     code: 'MX',
@@ -1413,6 +1570,7 @@ export const countries = [
     title: 'flag for Mexico',
     dialCode: '+52',
     code3: 'MEX',
+    slug: 'mexico',
   },
   {
     code: 'MY',
@@ -1422,6 +1580,7 @@ export const countries = [
     title: 'flag for Malaysia',
     dialCode: '+60',
     code3: 'MYS',
+    slug: 'malaysia',
   },
   {
     code: 'MZ',
@@ -1431,6 +1590,7 @@ export const countries = [
     title: 'flag for Mozambique',
     dialCode: '+258',
     code3: 'MOZ',
+    slug: 'mozambique',
   },
   {
     code: 'NA',
@@ -1440,6 +1600,7 @@ export const countries = [
     title: 'flag for Namibia',
     dialCode: '+264',
     code3: 'NAM',
+    slug: 'namibia',
   },
   {
     code: 'NC',
@@ -1449,6 +1610,7 @@ export const countries = [
     title: 'flag for New Caledonia',
     dialCode: '+687',
     code3: 'NCL',
+    slug: 'new-caledonia',
   },
   {
     code: 'NE',
@@ -1458,6 +1620,7 @@ export const countries = [
     title: 'flag for Niger',
     dialCode: '+227',
     code3: 'NER',
+    slug: 'niger',
   },
   {
     code: 'NF',
@@ -1466,6 +1629,7 @@ export const countries = [
     name: 'Norfolk Island',
     title: 'flag for Norfolk Island',
     dialCode: '+672',
+    slug: 'norfolk-island',
   },
   {
     code: 'NG',
@@ -1475,6 +1639,7 @@ export const countries = [
     title: 'flag for Nigeria',
     dialCode: '+234',
     code3: 'NGA',
+    slug: 'nigeria',
   },
   {
     code: 'NI',
@@ -1484,6 +1649,7 @@ export const countries = [
     title: 'flag for Nicaragua',
     dialCode: '+505',
     code3: 'NIC',
+    slug: 'nicaragua',
   },
   {
     code: 'NL',
@@ -1493,6 +1659,7 @@ export const countries = [
     title: 'flag for Netherlands',
     dialCode: '+31',
     code3: 'NLD',
+    slug: 'netherlands',
   },
   {
     code: 'NO',
@@ -1502,6 +1669,7 @@ export const countries = [
     title: 'flag for Norway',
     dialCode: '+47',
     code3: 'NOR',
+    slug: 'norway',
   },
   {
     code: 'NP',
@@ -1511,6 +1679,7 @@ export const countries = [
     title: 'flag for Nepal',
     dialCode: '+977',
     code3: 'NPL',
+    slug: 'nepal',
   },
   {
     code: 'NR',
@@ -1520,6 +1689,7 @@ export const countries = [
     title: 'flag for Nauru',
     dialCode: '+674',
     code3: 'NRU',
+    slug: 'nauru',
   },
   {
     code: 'NU',
@@ -1529,6 +1699,7 @@ export const countries = [
     title: 'flag for Niue',
     dialCode: '+683',
     code3: 'NIU',
+    slug: 'niue',
   },
   {
     code: 'NZ',
@@ -1538,6 +1709,7 @@ export const countries = [
     title: 'flag for New Zealand',
     dialCode: '+64',
     code3: 'NZL',
+    slug: 'new-zealand',
   },
   {
     code: 'OM',
@@ -1547,6 +1719,7 @@ export const countries = [
     title: 'flag for Oman',
     dialCode: '+968',
     code3: 'OMN',
+    slug: 'oman',
   },
   {
     code: 'PA',
@@ -1556,6 +1729,7 @@ export const countries = [
     title: 'flag for Panama',
     dialCode: '+507',
     code3: 'PAN',
+    slug: 'panama',
   },
   {
     code: 'PE',
@@ -1565,6 +1739,7 @@ export const countries = [
     title: 'flag for Peru',
     dialCode: '+51',
     code3: 'PER',
+    slug: 'peru',
   },
   {
     code: 'PF',
@@ -1574,6 +1749,7 @@ export const countries = [
     title: 'flag for French Polynesia',
     dialCode: '+689',
     code3: 'PYF',
+    slug: 'french-polynesia',
   },
   {
     code: 'PG',
@@ -1583,6 +1759,7 @@ export const countries = [
     title: 'flag for Papua New Guinea',
     dialCode: '+675',
     code3: 'PNG',
+    slug: 'papua-new-guinea',
   },
   {
     code: 'PH',
@@ -1592,6 +1769,7 @@ export const countries = [
     title: 'flag for Philippines',
     dialCode: '+63',
     code3: 'PHL',
+    slug: 'philippines',
   },
   {
     code: 'PK',
@@ -1601,6 +1779,7 @@ export const countries = [
     title: 'flag for Pakistan',
     dialCode: '+92',
     code3: 'PAK',
+    slug: 'pakistan',
   },
   {
     code: 'PL',
@@ -1610,6 +1789,7 @@ export const countries = [
     title: 'flag for Poland',
     dialCode: '+48',
     code3: 'POL',
+    slug: 'poland',
   },
   {
     code: 'PM',
@@ -1619,6 +1799,7 @@ export const countries = [
     title: 'flag for Saint Pierre and Miquelon',
     dialCode: '+508',
     code3: 'SPM',
+    slug: 'saint-pierre-and-miquelon',
   },
   {
     code: 'PN',
@@ -1628,6 +1809,7 @@ export const countries = [
     title: 'flag for Pitcairn',
     dialCode: '+872',
     code3: 'PCN',
+    slug: 'pitcairn',
   },
   {
     code: 'PR',
@@ -1637,6 +1819,7 @@ export const countries = [
     title: 'flag for Puerto Rico',
     dialCode: '+1 939',
     code3: 'PRI',
+    slug: 'puerto-rico',
   },
   {
     code: 'PS',
@@ -1646,6 +1829,7 @@ export const countries = [
     title: 'flag for Palestinian Territory',
     dialCode: '+970',
     code3: 'PSE',
+    slug: 'palestinian-territory',
   },
   {
     code: 'PT',
@@ -1655,6 +1839,7 @@ export const countries = [
     title: 'flag for Portugal',
     dialCode: '+351',
     code3: 'PRT',
+    slug: 'portugal',
   },
   {
     code: 'PW',
@@ -1664,6 +1849,7 @@ export const countries = [
     title: 'flag for Palau',
     dialCode: '+680',
     code3: 'PLW',
+    slug: 'palau',
   },
   {
     code: 'PY',
@@ -1673,6 +1859,7 @@ export const countries = [
     title: 'flag for Paraguay',
     dialCode: '+595',
     code3: 'PRY',
+    slug: 'paraguay',
   },
   {
     code: 'QA',
@@ -1682,6 +1869,7 @@ export const countries = [
     title: 'flag for Qatar',
     dialCode: '+974',
     code3: 'QAT',
+    slug: 'qatar',
   },
   {
     code: 'RE',
@@ -1691,6 +1879,7 @@ export const countries = [
     title: 'flag for Réunion',
     dialCode: '+262',
     code3: 'REU',
+    slug: 'runion',
   },
   {
     code: 'RO',
@@ -1700,6 +1889,7 @@ export const countries = [
     title: 'flag for Romania',
     dialCode: '+40',
     code3: 'ROU',
+    slug: 'romania',
   },
   {
     code: 'RS',
@@ -1709,6 +1899,7 @@ export const countries = [
     title: 'flag for Serbia',
     dialCode: '+381',
     code3: 'SRB',
+    slug: 'serbia',
   },
   {
     code: 'RU',
@@ -1718,6 +1909,7 @@ export const countries = [
     title: 'flag for Russia',
     dialCode: '+7',
     code3: 'RUS',
+    slug: 'russia',
   },
   {
     code: 'RW',
@@ -1727,6 +1919,7 @@ export const countries = [
     title: 'flag for Rwanda',
     dialCode: '+250',
     code3: 'RWA',
+    slug: 'rwanda',
   },
   {
     code: 'SA',
@@ -1736,6 +1929,7 @@ export const countries = [
     title: 'flag for Saudi Arabia',
     dialCode: '+966',
     code3: 'SAU',
+    slug: 'saudi-arabia',
   },
   {
     code: 'SB',
@@ -1745,6 +1939,7 @@ export const countries = [
     title: 'flag for Solomon Islands',
     dialCode: '+677',
     code3: 'SLB',
+    slug: 'solomon-islands',
   },
   {
     code: 'SC',
@@ -1754,6 +1949,7 @@ export const countries = [
     title: 'flag for Seychelles',
     dialCode: '+248',
     code3: 'SYC',
+    slug: 'seychelles',
   },
   {
     code: 'SD',
@@ -1763,6 +1959,7 @@ export const countries = [
     title: 'flag for Sudan',
     dialCode: '+249',
     code3: 'SDN',
+    slug: 'sudan',
   },
   {
     code: 'SE',
@@ -1772,6 +1969,7 @@ export const countries = [
     title: 'flag for Sweden',
     dialCode: '+46',
     code3: 'SWE',
+    slug: 'sweden',
   },
   {
     code: 'SG',
@@ -1781,6 +1979,7 @@ export const countries = [
     title: 'flag for Singapore',
     dialCode: '+65',
     code3: 'SGP',
+    slug: 'singapore',
   },
   {
     code: 'SH',
@@ -1790,6 +1989,7 @@ export const countries = [
     title: 'flag for Saint Helena, Ascension and Tristan Da Cunha',
     dialCode: '+290',
     code3: 'SHN',
+    slug: 'saint-helena-ascension-and-tristan-da-cunha',
   },
   {
     code: 'SI',
@@ -1799,6 +1999,7 @@ export const countries = [
     title: 'flag for Slovenia',
     dialCode: '+386',
     code3: 'SVN',
+    slug: 'slovenia',
   },
   {
     code: 'SJ',
@@ -1808,6 +2009,7 @@ export const countries = [
     title: 'flag for Svalbard and Jan Mayen',
     dialCode: '+47',
     code3: 'SJM',
+    slug: 'svalbard-and-jan-mayen',
   },
   {
     code: 'SK',
@@ -1817,6 +2019,7 @@ export const countries = [
     title: 'flag for Slovakia',
     dialCode: '+421',
     code3: 'SVK',
+    slug: 'slovakia',
   },
   {
     code: 'SL',
@@ -1826,6 +2029,7 @@ export const countries = [
     title: 'flag for Sierra Leone',
     dialCode: '+232',
     code3: 'SLE',
+    slug: 'sierra-leone',
   },
   {
     code: 'SM',
@@ -1835,6 +2039,7 @@ export const countries = [
     title: 'flag for San Marino',
     dialCode: '+378',
     code3: 'SMR',
+    slug: 'san-marino',
   },
   {
     code: 'SN',
@@ -1844,6 +2049,7 @@ export const countries = [
     title: 'flag for Senegal',
     dialCode: '+221',
     code3: 'SEN',
+    slug: 'senegal',
   },
   {
     code: 'SO',
@@ -1853,6 +2059,7 @@ export const countries = [
     title: 'flag for Somalia',
     dialCode: '+252',
     code3: 'SOM',
+    slug: 'somalia',
   },
   {
     code: 'SR',
@@ -1862,6 +2069,7 @@ export const countries = [
     title: 'flag for Suriname',
     dialCode: '+597',
     code3: 'SUR',
+    slug: 'suriname',
   },
   {
     code: 'SS',
@@ -1870,6 +2078,7 @@ export const countries = [
     name: 'South Sudan',
     title: 'flag for South Sudan',
     code3: 'SSD',
+    slug: 'south-sudan',
   },
   {
     code: 'ST',
@@ -1879,6 +2088,7 @@ export const countries = [
     title: 'flag for Sao Tome and Principe',
     dialCode: '+239',
     code3: 'STP',
+    slug: 'sao-tome-and-principe',
   },
   {
     code: 'SV',
@@ -1888,6 +2098,7 @@ export const countries = [
     title: 'flag for El Salvador',
     dialCode: '+503',
     code3: 'SLV',
+    slug: 'el-salvador',
   },
   {
     code: 'SX',
@@ -1896,6 +2107,7 @@ export const countries = [
     name: 'Sint Maarten (Dutch Part)',
     title: 'flag for Sint Maarten (Dutch Part)',
     code3: 'SXM',
+    slug: 'sint-maarten-dutch-part',
   },
   {
     code: 'SY',
@@ -1905,6 +2117,7 @@ export const countries = [
     title: 'flag for Syrian Arab Republic',
     dialCode: '+963',
     code3: 'SYR',
+    slug: 'syrian-arab-republic',
   },
   {
     code: 'SZ',
@@ -1914,6 +2127,7 @@ export const countries = [
     title: 'flag for Swaziland',
     dialCode: '+268',
     code3: 'SWZ',
+    slug: 'swaziland',
   },
   {
     code: 'TC',
@@ -1923,6 +2137,7 @@ export const countries = [
     title: 'flag for Turks and Caicos Islands',
     dialCode: '+1 649',
     code3: 'TCA',
+    slug: 'turks-and-caicos-islands',
   },
   {
     code: 'TD',
@@ -1932,6 +2147,7 @@ export const countries = [
     title: 'flag for Chad',
     dialCode: '+235',
     code3: 'TCD',
+    slug: 'chad',
   },
   {
     code: 'TF',
@@ -1940,6 +2156,7 @@ export const countries = [
     name: 'French Southern Territories',
     title: 'flag for French Southern Territories',
     code3: 'ATF',
+    slug: 'french-southern-territories',
   },
   {
     code: 'TG',
@@ -1949,6 +2166,7 @@ export const countries = [
     title: 'flag for Togo',
     dialCode: '+228',
     code3: 'TGO',
+    slug: 'togo',
   },
   {
     code: 'TH',
@@ -1958,6 +2176,7 @@ export const countries = [
     title: 'flag for Thailand',
     dialCode: '+66',
     code3: 'THA',
+    slug: 'thailand',
   },
   {
     code: 'TJ',
@@ -1967,6 +2186,7 @@ export const countries = [
     title: 'flag for Tajikistan',
     dialCode: '+992',
     code3: 'TJK',
+    slug: 'tajikistan',
   },
   {
     code: 'TK',
@@ -1976,6 +2196,7 @@ export const countries = [
     title: 'flag for Tokelau',
     dialCode: '+690',
     code3: 'TKL',
+    slug: 'tokelau',
   },
   {
     code: 'TL',
@@ -1985,6 +2206,7 @@ export const countries = [
     title: 'flag for Timor-Leste',
     dialCode: '+670',
     code3: 'TLS',
+    slug: 'timor-leste',
   },
   {
     code: 'TM',
@@ -1994,6 +2216,7 @@ export const countries = [
     title: 'flag for Turkmenistan',
     dialCode: '+993',
     code3: 'TKM',
+    slug: 'turkmenistan',
   },
   {
     code: 'TN',
@@ -2003,6 +2226,7 @@ export const countries = [
     title: 'flag for Tunisia',
     dialCode: '+216',
     code3: 'TUN',
+    slug: 'tunisia',
   },
   {
     code: 'TO',
@@ -2012,6 +2236,7 @@ export const countries = [
     title: 'flag for Tonga',
     dialCode: '+676',
     code3: 'TON',
+    slug: 'tonga',
   },
   {
     code: 'TR',
@@ -2021,6 +2246,7 @@ export const countries = [
     title: 'flag for Turkey',
     dialCode: '+90',
     code3: 'TUR',
+    slug: 'turkey',
   },
   {
     code: 'TT',
@@ -2030,6 +2256,7 @@ export const countries = [
     title: 'flag for Trinidad and Tobago',
     dialCode: '+1 868',
     code3: 'TTO',
+    slug: 'trinidad-and-tobago',
   },
   {
     code: 'TV',
@@ -2039,6 +2266,7 @@ export const countries = [
     title: 'flag for Tuvalu',
     dialCode: '+688',
     code3: 'TUV',
+    slug: 'tuvalu',
   },
   {
     code: 'TW',
@@ -2048,6 +2276,7 @@ export const countries = [
     title: 'flag for Taiwan',
     dialCode: '+886',
     code3: 'TWN',
+    slug: 'taiwan',
   },
   {
     code: 'TZ',
@@ -2057,6 +2286,7 @@ export const countries = [
     title: 'flag for Tanzania',
     dialCode: '+255',
     code3: 'TZA',
+    slug: 'tanzania',
   },
   {
     code: 'UA',
@@ -2066,6 +2296,7 @@ export const countries = [
     title: 'flag for Ukraine',
     dialCode: '+380',
     code3: 'UKR',
+    slug: 'ukraine',
   },
   {
     code: 'UG',
@@ -2075,6 +2306,7 @@ export const countries = [
     title: 'flag for Uganda',
     dialCode: '+256',
     code3: 'UGA',
+    slug: 'uganda',
   },
   {
     code: 'UM',
@@ -2083,6 +2315,7 @@ export const countries = [
     name: 'United States Minor Outlying Islands',
     title: 'flag for United States Minor Outlying Islands',
     code3: 'UMI',
+    slug: 'united-states-minor-outlying-islands',
   },
   {
     code: 'US',
@@ -2092,6 +2325,7 @@ export const countries = [
     title: 'flag for United States',
     dialCode: '+1',
     code3: 'USA',
+    slug: 'united-states',
   },
   {
     code: 'UY',
@@ -2101,6 +2335,7 @@ export const countries = [
     title: 'flag for Uruguay',
     dialCode: '+598',
     code3: 'URY',
+    slug: 'uruguay',
   },
   {
     code: 'UZ',
@@ -2110,6 +2345,7 @@ export const countries = [
     title: 'flag for Uzbekistan',
     dialCode: '+998',
     code3: 'UZB',
+    slug: 'uzbekistan',
   },
   {
     code: 'VA',
@@ -2119,6 +2355,7 @@ export const countries = [
     title: 'flag for Vatican City',
     dialCode: '+379',
     code3: 'VAT',
+    slug: 'vatican-city',
   },
   {
     code: 'VC',
@@ -2128,6 +2365,7 @@ export const countries = [
     title: 'flag for Saint Vincent and The Grenadines',
     dialCode: '+1 784',
     code3: 'VCT',
+    slug: 'saint-vincent-and-the-grenadines',
   },
   {
     code: 'VE',
@@ -2137,6 +2375,7 @@ export const countries = [
     title: 'flag for Venezuela',
     dialCode: '+58',
     code3: 'VEN',
+    slug: 'venezuela',
   },
   {
     code: 'VG',
@@ -2146,6 +2385,7 @@ export const countries = [
     title: 'flag for Virgin Islands, British',
     dialCode: '+1 284',
     code3: 'VGB',
+    slug: 'virgin-islands-british',
   },
   {
     code: 'VI',
@@ -2155,6 +2395,7 @@ export const countries = [
     title: 'flag for Virgin Islands, U.S.',
     dialCode: '+1 340',
     code3: 'VIR',
+    slug: 'virgin-islands-us',
   },
   {
     code: 'VN',
@@ -2164,6 +2405,7 @@ export const countries = [
     title: 'flag for Vietnam',
     dialCode: '+84',
     code3: 'VNM',
+    slug: 'vietnam',
   },
   {
     code: 'VU',
@@ -2173,6 +2415,7 @@ export const countries = [
     title: 'flag for Vanuatu',
     dialCode: '+678',
     code3: 'VUT',
+    slug: 'vanuatu',
   },
   {
     code: 'WF',
@@ -2182,6 +2425,7 @@ export const countries = [
     title: 'flag for Wallis and Futuna',
     dialCode: '+681',
     code3: 'WLF',
+    slug: 'wallis-and-futuna',
   },
   {
     code: 'WS',
@@ -2191,6 +2435,7 @@ export const countries = [
     title: 'flag for Samoa',
     dialCode: '+685',
     code3: 'WSM',
+    slug: 'samoa',
   },
   {
     code: 'XK',
@@ -2200,6 +2445,7 @@ export const countries = [
     title: 'flag for Kosovo',
     dialCode: '+383',
     code3: 'XKX',
+    slug: 'kosovo',
   },
   {
     code: 'YE',
@@ -2209,6 +2455,7 @@ export const countries = [
     title: 'flag for Yemen',
     dialCode: '+967',
     code3: 'YEM',
+    slug: 'yemen',
   },
   {
     code: 'YT',
@@ -2218,6 +2465,7 @@ export const countries = [
     title: 'flag for Mayotte',
     dialCode: '+262',
     code3: 'MYT',
+    slug: 'mayotte',
   },
   {
     code: 'ZA',
@@ -2227,6 +2475,7 @@ export const countries = [
     name: 'South Africa',
     title: 'flag for South Africa',
     dialCode: '+27',
+    slug: 'south-africa',
   },
   {
     code: 'ZM',
@@ -2236,6 +2485,7 @@ export const countries = [
     name: 'Zambia',
     title: 'flag for Zambia',
     dialCode: '+260',
+    slug: 'zambia',
   },
   {
     code: 'ZW',
@@ -2245,5 +2495,6 @@ export const countries = [
     name: 'Zimbabwe',
     title: 'flag for Zimbabwe',
     dialCode: '+263',
+    slug: 'zimbabwe',
   },
 ];

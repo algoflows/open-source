@@ -43,6 +43,19 @@ export class Flagmoji implements FlagmojiType {
   }
 
   /**
+   * Search for countries by slug.
+   * @param slug The country slug to search for.
+   * @returns An array of matching country objects.
+   */
+  searchBySlug(slug: string): Country[] {
+    if (!slug) {
+      throw new Error('Expected a country slug as the first argument');
+    }
+    const searchTerm = slug.toLowerCase();
+    return this.data.filter((country) => country.slug === searchTerm);
+  }
+
+  /**
    * Get an array of all emojis.
    */
   get emojis(): string[] {
@@ -68,6 +81,19 @@ export class Flagmoji implements FlagmojiType {
    */
   get unicodes(): string[] {
     return this.data.map((country) => country.unicode);
+  }
+
+  /**
+   * Get the country object for a given country slug.
+   * @param slug The country slug.
+   * @returns The country object, or undefined if not found.
+   */
+  slug(slug: string): Country | undefined {
+    if (!slug) {
+      throw new Error('Expected a country slug as the first argument');
+    }
+    const lowerSlug = slug.toLowerCase();
+    return this.data.find((country) => country.slug === lowerSlug);
   }
 }
 
